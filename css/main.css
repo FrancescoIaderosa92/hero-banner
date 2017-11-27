@@ -43,3 +43,7 @@ body {
   max-height: none;
   margin: 0;
 }
+
+.card-title {
+  font-size: 4rem;
+}
