@@ -1,9 +1,15 @@
 html {
   box-sizing: border-box;
+  font-family: Open Sans;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
 .banner {
@@ -14,4 +20,8 @@ html {
   padding: 0 1rem;
   position: absolute;
   bottom: 1rem;
+}
+
+.card-label {
+  background-color: rgba(0, 0, 0, .5);
 }
