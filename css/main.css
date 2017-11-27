@@ -17,10 +17,10 @@ html {
 }
 
 .banner-content {
-  max-height: inherit;
   padding: 0 1rem;
   position: absolute;
   bottom: 1rem;
+  left: 4rem;
 }
 
 .card-label {
@@ -29,4 +29,6 @@ html {
 
 .card {
   overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 0 6px 6px;
 }
