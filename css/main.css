@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans;
+  font-family: "Open Sans";
 }
 
 *, *::before, *::after {
@@ -17,6 +17,7 @@ html {
 }
 
 .banner-content {
+  max-height: inherit;
   padding: 0 1rem;
   position: absolute;
   bottom: 1rem;
@@ -24,4 +25,8 @@ html {
 
 .card-label {
   background-color: rgba(0, 0, 0, .5);
+}
+
+.card {
+  overflow: hidden;
 }
